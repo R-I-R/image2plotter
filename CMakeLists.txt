@@ -22,7 +22,7 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Svg OpenGL LinguistTools R
 
 set(TS_FILES)
 set(SRCFORMS ./src/mainwindow.cpp)
-set(SOURCES ./src/main.cpp ./src/svgViewer.cpp)
+set(SOURCES ./src/main.cpp ./src/drawingViewer.cpp ./src/drawingLayer.cpp)
 qt_wrap_ui(SOURCES ./src/mainwindow.ui)
 
 add_executable(image2plotter ${SOURCES} ${SRCFORMS} ${TS_FILES})

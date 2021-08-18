@@ -59,8 +59,9 @@
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
-        <widget class="SvgViewer" name="graphicsView"/>
-        <widget class="QListWidget" name="listWidget"/>
+        <widget class="SvgViewer" name="svgView"/>
+        <widget class="QListView" name="layersView"/>
+        <widget class="QGraphicsView" name="objView"/>
        </widget>
       </item>
      </layout>
@@ -83,7 +84,7 @@
   <customwidget>
    <class>SvgViewer</class>
    <extends>QGraphicsView</extends>
-   <header>svgViewer.hpp</header>
+   <header>drawingViewer.hpp</header>
   </customwidget>
  </customwidgets>
  <resources/>

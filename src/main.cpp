@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "svgViewer.hpp"
+#include "drawingViewer.hpp"
 #include <QApplication>
 
 int main(int argc, char *argv[])

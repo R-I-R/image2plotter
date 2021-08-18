@@ -9,7 +9,8 @@
 #include <QGraphicsSvgItem>
 #include <QtOpenGL>
 
-#include "svgViewer.hpp"
+#include "drawingViewer.hpp"
+#include "drawingLayer.hpp"
 
 namespace Ui {
 class MainWindow;
@@ -24,6 +25,9 @@ public:
 
 private:
 	Ui::MainWindow *ui;
+	std::vector<DrawingLayer> drawings;
+	QSvgRenderer *svgRender;
+	QGraphicsScene *svgScene;
 
 private slots:
 	void openSvg();
