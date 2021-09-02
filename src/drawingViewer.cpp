@@ -1,4 +1,4 @@
-#include "drawingViewer.hpp"
+#include <drawingViewer.hpp>
 
 SvgViewer::SvgViewer(QWidget *parent):QGraphicsView(parent){
 	//setViewport(new QGLWidget());

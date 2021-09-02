@@ -5,7 +5,7 @@
 #include <QMouseEvent>
 #include <QFile>
 #include <QGraphicsSvgItem>
-#include <QtOpenGL>
+#include <QOpenGLWidget>
 #include <QSvgRenderer>
 #include <stack>
 

@@ -1,4 +1,4 @@
-#include "drawingLayer.hpp"
+#include <drawingLayer.hpp>
 #include <QDebug>
 
 DrawingLayer::DrawingLayer(const QByteArray &path, int &index, int zPos): enabled(true),zPos(zPos),width(0){

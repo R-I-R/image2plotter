@@ -1,10 +1,10 @@
-#include "mainwindow.h"
-#include "drawingViewer.hpp"
+#include <mainwindow.h>
+#include <drawingViewer.hpp>
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
-	QCoreApplication::setAttribute(Qt::AA_UseOpenGLES);
+	//QCoreApplication::setAttribute(Qt::AA_UseOpenGLES);
 	QApplication a(argc, argv);
 	MainWindow w;
 	w.showMaximized();
